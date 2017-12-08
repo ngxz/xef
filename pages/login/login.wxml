@@ -1,0 +1,21 @@
+<view class='container'>
+    <view class="logoBox">
+    <view class="logo">
+      <image class='loginIcon' src='{{logoIcon}}'></image>
+    </view>
+  </view>
+    <form>
+      <view class="comBox">
+        <input placeholder="商家编号" />
+      </view>
+      <view class="mobileBox">
+        <input type="text" name="mobile" placeholder="输入帐号" />
+      </view>
+      <view class="pwdBox">
+        <input type="password" name="pwd" placeholder="输入密码" />
+      </view>
+      <button class="login">登录</button>
+    </form>
+</view>
+
+

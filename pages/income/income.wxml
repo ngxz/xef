@@ -1,0 +1,41 @@
+<!--pages/income/income.wxml-->
+<view class='container'>
+  <view class='navBox'>
+    <ul>
+      <li>
+        <span>今天</span>
+      </li>
+      <li>
+        <span>全部收营员</span>
+      </li>
+    </ul>
+  </view>
+  <view class='content'>
+    <view class='incomeTotal'>
+        <view>收入(元)<span> =收款-退款</span></view>
+        <view class='num'>0.00</view>
+    </view>
+    <view class='incomeShow'>
+        <view class='income'>
+          <view class='left yuan'>
+            <view class='tit'>收款金额(元)</view>
+            <view class='num'>0.00</view>
+          </view>
+          <view class='right bi'>
+            <view class='tit'>收款笔数(笔)</view>
+            <view class='num'>0</view>
+          </view>
+        </view>
+        <view class='payout'>
+          <view class='left yuan'>
+            <view class='tit'>退款金额(元)</view>
+            <view class='num'>0.00</view>
+          </view>
+          <view class='right bi'>
+            <view class='tit'>退款笔数(笔)</view>
+            <view class='num'>0</view>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
